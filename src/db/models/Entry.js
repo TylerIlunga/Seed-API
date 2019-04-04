@@ -12,11 +12,7 @@ module.exports = (sequelize) => {
     views: {
       type: Sequelize.INTEGER,
       defaultValue: 0
-    },
-    created_at: {
-      type: Sequelize.BIGINT,
-      defaultValue: Date.now(),
-    },
+    }
   }, {});
   return Entry;
 }
