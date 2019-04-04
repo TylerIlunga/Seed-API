@@ -1,5 +1,5 @@
 module.exports = {
-dbConfig: {
+  dbConfig: {
     user: 'admin',
     host: '127.0.0.1',
     password: null,
@@ -8,9 +8,9 @@ dbConfig: {
     pool: {
       max: 20,
       min: 1,
-      idle: 10000
+      idle: 10000,
     },
-    dialect: 'postgres'
+    dialect: 'postgres',
   },
   poolConfig: {
     user: 'admin',
@@ -20,5 +20,5 @@ dbConfig: {
     port: 5432,
     max: 20,
   },
-  port: process.env.PORT || 4444
-}
+  port: process.env.PORT || 4444,
+};

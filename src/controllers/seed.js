@@ -1,6 +1,6 @@
-const db = require('../db').getClient();
-const Entry = require('../db').Entry;
+require('../db').getClient();
 
+const Entry = require('../db').Entry;
 module.exports = {
   create(req, res) {
     const entries = Number(process.env.entries);
