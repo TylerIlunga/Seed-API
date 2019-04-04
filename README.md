@@ -7,6 +7,7 @@ Environment Variables:
 2) ENTRIES
 
 Example: DBNAME=seedy ENTRIES=100 npm run dev
+
 Range: (0-100] rows
 
 
