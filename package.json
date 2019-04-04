@@ -1,0 +1,24 @@
+{
+  "name": "Seedy",
+  "version": "1.0.0",
+  "description": "Simple API where the only endpoint is one that allows you to seed your database with an arbitrary amount of entries. Provide the command line with two required arguments. 1) Database Name (initially set to your local device) 2) Number of Entries you would like to create(populates values of test names, test emails, and a fake view count)",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/server",
+    "optimize": "node ./src/server/cluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tyler Ilunga",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.9.0",
+    "sequelize": "^5.2.11"
+  }
+}
